@@ -1,0 +1,32 @@
+{
+    "name": "indigophp/dbal-extensions",
+    "description": "Some useful DBAL related things",
+    "license": "MIT",
+    "keywords": ["dbal", "extension"],
+    "homepage": "https://indigophp.com",
+    "authors": [
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "doctrine/dbal": "~2.4"
+    },
+    "require-dev": {
+        "mathiasverraes/money": "dev-nextrelease",
+        "codeception/codeception": "~2.0.0",
+        "codeception/mockery-module": "dev-master"
+    },
+    "suggest": {
+        "mathiasverraes/money": "Used for Money Type integration"
+    },
+    "autoload": {
+        "psr-4": {
+            "Indigo\\DBAL\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
