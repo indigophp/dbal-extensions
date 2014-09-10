@@ -48,6 +48,10 @@ class MoneyType extends IntegerType
      */
     public function convertToDatabaseValue($value, AbstractPlatform $platform)
     {
+        if (empty($value)) {
+            return null;
+        }
+
         return $value->getAmount();
     }
 
@@ -56,6 +60,10 @@ class MoneyType extends IntegerType
      */
     public function convertToPHPValue($value, AbstractPlatform $platform)
     {
+        if (is_null($value)) {
+            return null;
+        }
+
         return new Money((int) $value, new Currency($this->getCurrency()));
     }
 

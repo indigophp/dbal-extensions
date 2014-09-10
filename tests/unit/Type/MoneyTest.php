@@ -56,6 +56,7 @@ class MoneyTest extends AbstractTypeTest
         $m = $this->createMoney();
 
         $this->assertEquals(1, $this->type->convertToDatabaseValue($m, $this->platform));
+        $this->assertNull($this->type->convertToDatabaseValue(null, $this->platform));
     }
 
     /**
@@ -66,6 +67,7 @@ class MoneyTest extends AbstractTypeTest
         $m = $this->createMoney();
 
         $this->assertEquals($m, $this->type->convertToPHPValue('1', $this->platform));
+        $this->assertNull($this->type->convertToPHPValue(null, $this->platform));
     }
 
     /**

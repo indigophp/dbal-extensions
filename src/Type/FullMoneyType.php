@@ -32,7 +32,11 @@ class FullMoneyType extends StringType
      */
     public function convertToDatabaseValue($value, AbstractPlatform $platform)
     {
-         return (string) $value->getCurrency() . ' '. $value->getAmount();
+        if (empty($value)) {
+            return null;
+        }
+
+        return (string) $value->getCurrency() . ' '. $value->getAmount();
     }
 
     /**
@@ -40,6 +44,10 @@ class FullMoneyType extends StringType
      */
     public function convertToPHPValue($value, AbstractPlatform $platform)
     {
+        if (is_null($value)) {
+            return null;
+        }
+
         list($currency, $amount) = explode(' ', $value, 2);
 
         return new Money((int) $amount, new Currency($currency));
