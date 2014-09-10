@@ -1,8 +1,10 @@
 # Indigo DBAL Extensions
 
 [![Build Status](https://travis-ci.org/indigophp/dbal-extensions.svg?branch=develop)](https://travis-ci.org/indigophp/dbal-extensions)
+[![Code Coverage](https://scrutinizer-ci.com/g/indigophp/dbal-extensions/badges/coverage.png?b=develop)](https://scrutinizer-ci.com/g/indigophp/dbal-extensions/?branch=develop)
 [![Latest Stable Version](https://poser.pugx.org/indigophp/dbal-extensions/v/stable.png)](https://packagist.org/packages/indigophp/dbal-extensions)
 [![Total Downloads](https://poser.pugx.org/indigophp/dbal-extensions/downloads.png)](https://packagist.org/packages/indigophp/dbal-extensions)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/indigophp/dbal-extensions/badges/quality-score.png?b=develop)](https://scrutinizer-ci.com/g/indigophp/dbal-extensions/?branch=develop)
 [![License](https://poser.pugx.org/indigophp/dbal-extensions/license.png)](https://packagist.org/packages/indigophp/dbal-extensions)
 [![Dependency Status](http://www.versioneye.com/user/projects/5410e2504cd1606d2a0001e3/badge.svg?style=flat)](http://www.versioneye.com/user/projects/5410e2504cd1606d2a0001e3)
 
