@@ -6,3 +6,4 @@ use Doctrine\DBAL\Types\Type;
 require_once __DIR__.'/stubs/Types.php';
 
 Type::addType('money', 'Indigo\\DBAL\\Type\\MoneyType');
+Type::addType('fullmoney', 'Indigo\\DBAL\\Type\\FullMoneyType');
