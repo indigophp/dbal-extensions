@@ -4,6 +4,7 @@
 [![Latest Stable Version](https://poser.pugx.org/indigophp/dbal-extensions/v/stable.png)](https://packagist.org/packages/indigophp/dbal-extensions)
 [![Total Downloads](https://poser.pugx.org/indigophp/dbal-extensions/downloads.png)](https://packagist.org/packages/indigophp/dbal-extensions)
 [![License](https://poser.pugx.org/indigophp/dbal-extensions/license.png)](https://packagist.org/packages/indigophp/dbal-extensions)
+[![Dependency Status](http://www.versioneye.com/user/projects/5410e2504cd1606d2a0001e3/badge.svg?style=flat)](http://www.versioneye.com/user/projects/5410e2504cd1606d2a0001e3)
 
 **Some useful DBAL related things.**
 
