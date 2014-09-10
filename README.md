@@ -23,6 +23,15 @@ Via Composer
 
 ## Usage
 
+Currently implemented features:
+
+* `EnumType`: Extend this type to implement custom enumerations
+* `MoneyType`: Use this type if your monetary values are not strictly tied to a currency
+* `FullMoneyType`: Use this type if your monetary values are strictly tied to a currency (values are stored as string)
+
+
+**Note:** You must add the required types to the DBAL Type registry.
+
 
 ## Testing
 
