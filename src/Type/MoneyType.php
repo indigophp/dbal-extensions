@@ -115,7 +115,7 @@ class MoneyType extends IntegerType
             // detect from locale
             $localeconv = localeconv();
 
-            static::setDefaultCurrency($localeconv['int_curr_symbol']);
+            static::setDefaultCurrency(trim($localeconv['int_curr_symbol']));
         }
 
         return static::$defaultCurrency;
