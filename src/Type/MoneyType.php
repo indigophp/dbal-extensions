@@ -94,7 +94,7 @@ class MoneyType extends IntegerType
      *
      * @param string $currency
      *
-     * @return this
+     * @return self
      */
     public function setCurrency($currency)
     {
